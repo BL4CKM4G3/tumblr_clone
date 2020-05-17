@@ -7,6 +7,8 @@
 
     <%= stylesheet_link_tag 'application', 'http://fonts.googleapis.com/css?family=Raleway:400,700' %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet"> 
     <!-- <%= favicon_link_tag '' %> -->
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -17,10 +19,10 @@
         <li class="category">
           <%= link_to "Tumblr", root_path %>
         </li>
-        <li>
+        <li class="category">
           <%= link_to "Posts", root_path %>
         </li>
-        <li>
+        <li class="category">
           <%= link_to "About", about_path %>
         </li>
       </ul>
